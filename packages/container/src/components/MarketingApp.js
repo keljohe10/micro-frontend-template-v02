@@ -5,7 +5,6 @@ export default () => {
     const ref = useRef(null);
 
     useEffect(() => {
-        console.log('Hello from Marketing App 2');
         MarketingMount(ref.current);
     }, []);
 
