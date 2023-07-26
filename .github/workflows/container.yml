@@ -32,4 +32,4 @@ jobs:
           sudo ./aws/install --update
 
       - name: Sync files to S3
-        run: aws s3 sync ./build s3://${{ secrets.AWS_BUCKET_NAME }}/container/latest
+        run: aws s3 sync dist s3://${{ secrets.AWS_BUCKET_NAME }}/container/latest
