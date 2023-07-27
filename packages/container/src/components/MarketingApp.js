@@ -5,6 +5,7 @@ export default () => {
     const ref = useRef(null);
 
     useEffect(() => {
+        console.log('Container');
         MarketingMount(ref.current);
     }, []);
 
