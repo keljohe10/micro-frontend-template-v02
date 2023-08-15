@@ -1,10 +1,7 @@
-import React from 'react';
-import MarketingApp from './components/MarketingApp';
+import React from "react";
 
-export default () => {
-    return (
-        <>
-            <MarketingApp/>
-        </>
-    );
-};
+function App() {
+  return <MarketingApp />;
+}
+
+export default App;

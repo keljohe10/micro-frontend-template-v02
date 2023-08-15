@@ -5,7 +5,7 @@ import { StylesProvider } from "@material-ui/core/styles";
 import Landing from "./pages/Landing";
 import Pricing from "./pages/Pricing";
 
-export default () => {
+function App() {
   return (
     <StylesProvider>
       <BrowserRouter>
@@ -16,4 +16,6 @@ export default () => {
       </BrowserRouter>
     </StylesProvider>
   );
-};
+}
+
+export default App;
